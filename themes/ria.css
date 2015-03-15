@@ -1,0 +1,256 @@
+/* Template Colors:#FFFFFF #ABB8BF #333333 | Labels:#0B333C | Border:#CCCCCC */
+
+body {
+	margin:0px;
+	padding:0px;
+	font-family:Verdana;
+	font-size:11px;
+	vertical-align:top;
+	color:#333333;
+	background-color:#788E99;
+}
+form fieldset {border:none;}
+form input, form textarea
+{
+	border-top:solid 1px #555555;
+	border-bottom:solid 1px #CCCCCC;
+	border-left:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+}
+form input:focus,
+form textarea:focus {
+	border:solid 2px #09C;
+}
+form input,
+form textarea,
+form select {
+	font-family:inherit;
+	margin:0px;
+}
+form label {
+	color:#0B333C;
+	display:inline-block;
+	text-align:right;
+	vertical-align:top;
+	padding-top:5px;
+}
+form legend {
+	color:#0B333C;
+	font-weight:bold;
+	font-size:13px;
+}
+form select {
+	border:solid 1px #CCCCCC;
+	border-radius:6px;
+	margin:2px;
+	padding:0px;
+}
+form input,
+form textarea,
+form select {
+	color:#0B333C;
+}
+form td input,
+form td textarea,
+form td select {
+	width:100%;
+}
+form input[type=checkbox] {
+	background-image:url(../img/printer_icon.png);
+}
+form input[type=text],
+form input[type=password],
+form input[type=file],
+form textarea
+{
+	width:180px;
+	padding:4px 2px 4px 2px;
+}
+form input[type=submit],
+form input[type=button],
+form select {
+	font-size:11px;
+	font-weight:bold;
+	color:#0B333C;
+	padding:1px 10px 2px 10px;
+	cursor:pointer;
+	border:none;
+	border-radius:5px;
+	border-top:solid 1px #CCCCCC;
+	border-left:solid 1px #777777;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 1px #777777;
+	background: #FFFFFF;
+	background: linear-gradient(top, #FFFFFF, #ABB8BF) no-repeat;
+	background: -webkit-linear-gradient(top, #FFFFFF, #ABB8BF);
+	background: -o-linear-gradient(top, #FFFFFF, #ABB8BF);
+	background: -moz-linear-gradient(top, #FFFFFF, #ABB8BF);
+}
+form input[type=submit]:hover,
+form input[type=button]:hover {
+	border:solid 1px #0099FF;
+}
+form .buttonsArea {
+	width:50%;
+	display:inline-block;
+	margin-left:50%;
+}
+form .fieldArea {
+	display:block;
+	margin:4px 0px 4px 0px;
+	width:100%;
+}
+form .input {
+	display:inline-block;
+	text-align:left;
+}
+
+h1 {color:#FFFFFF; font-size:15px;}
+h2 {color:#0B333C; font-size:11px; margin-top:0px;}
+
+td {vertical-align:top;}
+
+.Alert {
+	background:#788E99;
+	color:#FFFFFF;
+}
+
+/* ACCORDION */
+
+.Accordion {
+	border-left:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+}
+.Accordion > a {
+	color:#0B333C;
+	padding:2px 3px;
+	border-top:solid 1px #CCCCCC;
+	border-bottom:solid 1px #999999;
+	font-weight:bold;
+	background: #FFFFFF;
+	background: linear-gradient(top, #FFFFFF, #ABB8BF) no-repeat;
+	background: -webkit-linear-gradient(top, #FFFFFF, #ABB8BF);
+	background: -o-linear-gradient(top, #FFFFFF, #ABB8BF);
+	background: -moz-linear-gradient(top, #FFFFFF, #ABB8BF);
+}
+.Accordion > a:hover {
+	border:solid 1px #0099FF;
+}
+.Accordion > div {
+	background:#FFFFFF;
+}
+
+/* ARTICLE */
+
+.Article > .head {
+	background: linear-gradient(top, #FFFFFF, #ABB8BF) no-repeat;
+	background: -webkit-linear-gradient(top, #FFFFFF, #ABB8BF);
+	background: -o-linear-gradient(top, #FFFFFF, #ABB8BF);
+	background: -moz-linear-gradient(top, #FFFFFF, #ABB8BF);
+	border-radius:6px;
+}
+.Article > .head .a1 {
+	font-size:x-small;
+}
+.Article > .head .a2 {
+	font-size:inherit;
+}
+.Article > .head .a3 {
+	font-size:medium;
+}
+
+/* CONTAINER */
+
+.container {
+	min-width:100px;
+	min-height:100px;
+	padding:10px;
+	border-radius:6px;
+	border-top:solid 1px #FFFFFF;
+	box-shadow: 0px 3px 2px #555555;
+	background-image:url(../graphics/alpha-white.png);
+}
+
+/* DATAGRID */
+
+.DataGrid {
+	border-collapse:collapse;
+	text-align:left;
+	border:solid 1px #CCCCCC;
+	width:100%;
+}
+.DataGrid > thead tr th.up:hover {
+	background-image:url("../graphics/up-arrow-flex.png");
+}
+.DataGrid > thead tr th.down:hover {
+	background-image:url("../graphics/down-arrow-flex.png");
+}
+.DataGrid th[scope=col] {
+	color:#0B333C;
+	padding:5px 20px 5px 5px;
+	text-align:left;
+	border:solid 1px #CCCCCC;
+}
+.DataGrid td,
+.DataGrid .checkbox_column {
+	padding:5px;
+}
+.DataGrid td,
+.DataGrid th {
+	border-right:solid 1px #CCCCCC;
+}
+.DataGrid .checkbox_column {
+	width:22px;
+	text-align:center;
+}
+.DataGrid th[scope=col],
+.DataGrid .checkbox_column {
+	background: #FFFFFF;
+	background: linear-gradient(top, #FFFFFF, #ABB8BF) no-repeat;
+	background: -webkit-linear-gradient(top, #FFFFFF, #ABB8BF);
+	background: -o-linear-gradient(top, #FFFFFF, #ABB8BF);
+	background: -moz-linear-gradient(top, #FFFFFF, #ABB8BF);
+}
+.DataGrid tr.dark {
+	background-color:#F7F7F7;
+}
+.DataGrid tr.clean {
+	background-color:#FFFFFF;
+}
+.DataGrid tr:hover {
+	background-color:#B2E1FF;
+}
+.DataGrid .active {
+	background:#ABDDFF;
+}
+
+/* TABNAVIGATOR */
+
+.TabNavigator {
+	width:100%;
+}
+.TabNavigator > a {
+	font-weight:bold;
+}
+.TabNavigator > a,
+.TabNavigator > a.active {
+	border-radius:3px 3px 0px 0px;
+	padding:5px 15px 5px 15px;
+	margin:0px;
+}
+.TabNavigator > a {
+	color:#0B333C;
+	background: #FFFFFF;
+	background: linear-gradient(top, #FFFFFF, #ABB8BF) no-repeat;
+	background: -webkit-linear-gradient(top, #FFFFFF, #ABB8BF);
+	background: -o-linear-gradient(top, #FFFFFF, #ABB8BF);
+	background: -moz-linear-gradient(top, #FFFFFF, #ABB8BF);
+}
+.TabNavigator > .active {
+	background:#FFFFFF;
+}
+.TabNavigator iframe {
+	border:none;
+	width:100%;
+	min-height:400px;
+}

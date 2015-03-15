@@ -1,0 +1,26 @@
+.Accordion {
+	display:inline-block;
+	vertical-align:top;
+	min-width:150px;
+}
+.Accordion > a {
+	font-weight:bold;
+	display:block;
+	padding-left:0px !important;
+	padding-right:0px !important;
+	text-indent:5px;
+	border-radius:0px;
+	overflow:hidden;
+	cursor:pointer;
+}
+.Accordion > div {
+	color:inherit;
+	border:none;
+	padding:5px;
+	overflow:auto;
+	min-height:200px;
+	display:none;
+}
+.Accordion > div.active {
+	display:block;
+}

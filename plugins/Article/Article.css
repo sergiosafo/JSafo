@@ -1,0 +1,51 @@
+/* Borders:#AAAAAA | Labels:#555555 #0099FF */
+
+.Article {
+	padding:5px;
+}
+.Article > .head {
+	display:block;
+	font-size:small;
+	text-align:right;
+	padding:5px;
+	margin-bottom:10px;
+}
+.Article > .head span {
+	float:left;
+	padding-left:10px;
+}
+.Article > .head a {
+	cursor:pointer;
+	color:inherit;
+}
+.Article > .head a.print {
+	width:16px;
+	height:16px;
+	background:url("printer_icon.png") center no-repeat;
+	margin:0px 10px 0px 0px;
+	display:inline-block;
+}
+.Article > .head .small {
+	font-size:small;
+}
+.Article > .head .medium {
+	font-size:medium;
+}
+.Article > .head .large {
+	font-size:large;
+}
+.Article > .head a:hover {
+	text-decoration:underline;
+}
+.Article > .head a.active {
+	font-weight:bold;
+	color:inherit;
+}
+.Article > .content {
+	text-align:justify;
+	display:block;
+	clear:both;
+}
+.Article > .content p {
+	text-indent:16px;
+}

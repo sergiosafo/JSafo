@@ -1,0 +1,44 @@
+.DataGrid caption {
+	font-size:small;
+	font-weight:bold;
+}
+.DataGrid th[scope=col] {
+	padding-right:25px !important;
+}
+.DataGrid td.center {
+	text-align:center;
+}
+.DataGrid > thead tr th.up:hover,
+.DataGrid > thead tr th.down:hover {
+	background-position:right !important;
+	background-repeat:no-repeat !important;
+}
+.DataGrid > thead tr th.up:hover {
+	background-image:url("../../graphics/up-arrow.png");
+}
+.DataGrid > thead tr th.down:hover {
+	background-image:url("../../graphics/down-arrow.png");
+}
+.DataGrid > tbody tr {
+	cursor:pointer;
+}
+.DataGrid > tbody tr:hover {
+	background-color:#B2E1FF;
+}
+.DataGrid > tbody tr.active {
+	background:#75C9FF;
+}
+.DataGrid > tbody tr th, 
+.DataGrid > tbody tr td {
+	padding:5px;
+}
+.DataGrid > tbody tr td {
+	word-break:break-all;
+	vertical-align:top;
+}
+.DataGrid > tbody tr td.num {
+	text-align:right;
+}
+.DataGrid td.center {
+	text-align:center;
+}

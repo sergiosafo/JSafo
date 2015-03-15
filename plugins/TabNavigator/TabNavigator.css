@@ -1,0 +1,39 @@
+.TabNavigator {
+	text-align:left;
+	height:100%;
+}
+.TabNavigator > a {
+	cursor:pointer !important;
+	border-bottom:none !important;
+	float:left;
+	vertical-align:bottom;
+	font-weight:bold;
+	padding:5px 10px 7px 12px;
+	text-decoration:none;
+	margin-right:2px;
+}
+.TabNavigator > a.active {
+	margin-top:1px;
+	margin-bottom:-1px;
+}
+.TabNavigator > a > a.close {
+	color:#999;
+	padding:0px 3px 0px 3px;
+	margin:0px 0px 0px 5px;
+	border-radius:6px;
+}
+.TabNavigator > a > a.close:hover {
+	background:#622;
+	color:#FFF;
+}
+.TabNavigator > a.active > a.close:hover {
+	background:#900;
+}
+.TabNavigator > div {
+	padding:10px;
+	display:none;
+	clear:both;
+}
+.TabNavigator > div.active {
+	display:block;
+}

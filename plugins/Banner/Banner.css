@@ -1,0 +1,8 @@
+.Banner {
+	display:block;
+	overflow:hidden;
+}
+.Banner img {
+	width:100%;
+	display:none;
+}

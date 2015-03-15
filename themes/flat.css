@@ -1,0 +1,140 @@
+body {
+	margin:0px;
+	padding:0px;
+	font-family:Arial;
+	font-size:15px;
+	color:#999999;
+	vertical-align:top;
+	background:#CCCCCC;
+}
+a {
+	color:inherit;
+}
+fieldset {
+	border-radius:9px;
+	border-top:solid 1px #FFF;
+	border-right:solid 1px #AAA;
+	border-bottom:solid 1px #AAA;
+	border-left:solid 1px #FFF;
+	margin:10px;
+}
+label {
+	font-size:11px;
+}
+label,
+legend {
+	font-weight:bold;
+}
+legend {
+	font-size:15px;
+	color:#3399CC;
+}
+input[type=text],
+input[type=file],
+input[type=password],
+select {
+	border:none;
+	border-top:solid 2px #999999;
+	border-left:solid 2px #999999;
+	padding:1px 3px 1px 3px; 
+	color:inherit;
+	margin:0px;
+}
+h1 {
+	letter-spacing:-3px;
+	font-style:italic;
+	font-size:40px;
+}
+h1#logo {
+	display:inline;
+}
+
+.container {
+	display:block;
+	max-width:1000px;
+	margin:auto;
+	background:#FFF;
+}
+.container > div {
+	padding:10px;
+}
+.container .Banner {
+	padding:0px;
+	border-top:solid 6px #0099FF;
+	border-bottom:solid 6px #0099FF;
+}
+.slogan {
+	font-weight:bold;
+	font-size:10px;
+	letter-spacing:8px;
+	display:block;
+	text-transform:uppercase;
+}
+
+/* ACCORDION */
+.Accordion > a {
+	color:#FFFFFF;
+	margin:1px 0px 1px 0px;
+	padding:8px;
+	font-weight:bold;
+	background: #777777;
+	border-right:solid 20px #09C;
+}
+.Accordion > div {
+	color:inherit;
+}
+
+/* ARTICLE */
+.Article .content {
+	color:#555555;
+}
+
+/* DATAGRID */
+.DataGrid {
+	border-collapse:collapse;
+	width:100%;
+	color:inherit;
+}
+.DataGrid caption {
+	font-size:small;
+	font-weight:bold;
+}
+.DataGrid > thead tr {
+	border-bottom:solid 1px #AAAAAA;
+}
+.DataGrid > thead tr th {
+	padding:4px 10px 10px 10px;
+	text-align:left;
+}
+.DataGrid > thead tr th.up:hover,
+.DataGrid > thead tr th.down:hover {
+	background-color:#EDEDED;
+}
+.DataGrid > tbody tr:hover {
+	background-color:#B2E1FF;
+}
+
+/* TABNAVIGATOR */
+.TabNavigator > a {
+	font-weight:bold;
+	padding:15px 20px 10px 20px;
+	background:#DDDDDD;
+	margin:0px;
+}
+.TabNavigator > a.active {
+	color:#0099FF;
+	background:inherit;
+	padding-top:2px;
+}
+.TabNavigator .active {
+	color:inherit;
+}
+.TabNavigator div.active {
+	margin-top:-2px;
+	padding:10px;
+}
+.TabNavigator iframe {
+	border:none;
+	width:100%;
+	min-height:400px;
+}

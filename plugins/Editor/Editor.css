@@ -1,0 +1,23 @@
+.Editor {
+	min-height:200px;
+	height:100%;
+	background:#FFF;
+	color:#333;
+	padding:5px;
+	font:inherit;
+	overflow:auto;
+}
+.Editor .cursor {
+	margin:0px;
+	padding:0px;
+	border:none;
+	background:none;
+	font:inherit;
+	width:1px;
+	overflow:hidden;
+	vertical-align:middle;
+	resize:none;
+}
+.Editor .cursor:focus {
+ 	outline:none;
+}

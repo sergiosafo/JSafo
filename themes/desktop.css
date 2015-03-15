@@ -1,0 +1,175 @@
+html, body {
+	width:100%;
+	height:100%;
+}
+body {
+	overflow:auto;
+	margin:0px;
+	padding:0px;
+	font-family:Verdana;
+	font-size:12px;
+	color:#777777;
+	vertical-align:top;
+	background: #EEEEEE;
+	background: linear-gradient(top, #EEEEEE, #AAAAAA) no-repeat;
+	background: -webkit-linear-gradient(top, #EEEEEE, #AAAAAA);
+	background: -o-linear-gradient(top, #EEEEEE, #AAAAAA);
+	background: -moz-linear-gradient(top, #EEEEEE, #AAAAAA);
+}
+a {
+	color:inherit;
+}
+fieldset {
+	border-radius:9px;
+	border-top:solid 1px #FFF;
+	border-right:solid 1px #AAA;
+	border-bottom:solid 1px #AAA;
+	border-left:solid 1px #FFF;
+	margin:10px;
+}
+label {
+	font-size:11px;
+}
+label,
+legend {
+	font-weight:bold;
+}
+legend {
+	font-size:15px;
+	color:#3399CC;
+}
+input[type=text],
+input[type=file],
+input[type=password],
+select {
+	border:none;
+	border-top:solid 2px #999999;
+	border-left:solid 2px #999999;
+	padding:1px 3px 1px 3px; 
+	color:inherit;
+	margin:0px;
+}
+
+h1 {
+	color:#3399CC;
+	font-size:40px;
+	text-shadow:3px 3px 3px #AAAAAA;
+	font-style:italic;
+	display:inline-block;
+	margin:10px;
+}
+h2 {
+	color:#AAAAAA;
+}
+
+/* ACCORDION */
+
+.Accordion {
+	width:100%;
+	height:100%;
+}
+.Accordion > a {
+	color:#3399CC;
+	border-bottom:solid 1px #999999;
+	padding:5px;
+	font-weight:bold;
+	background: #EEEEEE;
+	background: linear-gradient(top, #EEEEEE, #AAAAAA) no-repeat;
+	background: -webkit-linear-gradient(top, #EEEEEE, #AAAAAA);
+	background: -o-linear-gradient(top, #EEEEEE, #AAAAAA);
+	background: -moz-linear-gradient(top, #EEEEEE, #AAAAAA);
+}
+.Accordion > div {
+	background:#EDEDED;
+	color:inherit;
+	height:50%;
+}
+
+.Block {
+	display:table;
+	width:100%;
+	height:100%;
+	overflow:auto;
+}
+
+.Column {
+	display:table-cell;
+	vertical-align:top;
+	height:100%;
+}
+
+/* DATAGRID */
+
+.DataGrid {
+	border-collapse:collapse;
+	width:100%;
+	color:inherit;
+}
+.DataGrid caption {
+	font-size:small;
+	font-weight:bold;
+}
+.DataGrid > thead tr {
+	background: #EEEEEE;
+	background: linear-gradient(top, #EEEEEE, #AAAAAA) no-repeat;
+	background: -webkit-linear-gradient(top, #EEEEEE, #AAAAAA);
+	background: -o-linear-gradient(top, #EEEEEE, #AAAAAA);
+	background: -moz-linear-gradient(top, #EEEEEE, #AAAAAA);
+}
+.DataGrid > thead tr th {
+	padding:4px 10px 4px 10px;
+	text-align:left;
+}
+.DataGrid > thead tr th.up:hover,
+.DataGrid > thead tr th.down:hover {
+	background-color:#CCCCCC;
+}
+.DataGrid > tbody tr.clean {
+	background-color:#FFFFFF;
+}
+.DataGrid > tbody tr.dark {
+	background-color:#EFEFEF;
+}
+.DataGrid > tbody tr:hover {
+	background-color:#B2E1FF;
+}
+
+/* TABNAVIGATOR */
+
+.TabNavigator {
+	background:#999999;
+}
+.TabNavigator > a {
+	font-weight:bold;
+	border-radius:5px 5px 0px 0px;
+	padding:5px 10px 5px 10px;
+	background:#AAAAAA;
+	color:#FFFFFF;
+}
+.TabNavigator a.active {
+	color:#3399CC;
+}
+.TabNavigator > a,
+.TabNavigator > div.active {
+	background: #EEEEEE;
+	background: linear-gradient(top, #EEEEEE, #AAAAAA) no-repeat;
+	background: -webkit-linear-gradient(top, #EEEEEE, #AAAAAA);
+	background: -o-linear-gradient(top, #EEEEEE, #AAAAAA);
+	background: -moz-linear-gradient(top, #EEEEEE, #AAAAAA);
+}
+.TabNavigator .active {
+	background:#EEEEEE;
+	color:inherit;
+}
+.TabNavigator div.active {
+	border-radius:0px 7px 7px 7px;
+	border-right:solid 1px #999999;
+	background:#EEEEEE;
+	padding:10px;
+	height:calc(100% - 55px);
+}
+.TabNavigator iframe {
+	border:none;
+	width:100%;
+	min-height:400px;
+}

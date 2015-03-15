@@ -1,0 +1,40 @@
+.Explorer {
+	background:#FFF;
+	border-radius:6px;
+	height:100%;
+	padding:5px;
+}
+.Explorer,
+.Explorer ul {
+	margin:0px;
+}
+.Explorer ul {
+	display:none;
+	padding:0px;
+}
+.Explorer li {
+	padding:2px 0px 2px 20px;
+	background-image:url("img/closed.jpg");
+	list-style-image:url("img/folder-close.png");
+	list-style-position:inside;
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+.Explorer li.open {
+	background-image:url("img/opened.jpg");
+	list-style-image:url("img/folder-open.png");
+}
+.Explorer li.open > ul {
+	display:block;
+}
+.Explorer > li {
+	padding-left:0px;
+}
+.Explorer li > a {
+	cursor:pointer;
+	margin-left:-4px;
+}
+.Explorer li.txt {
+	list-style-image:url("img/text.png");
+	background:none;
+}
